@@ -2,7 +2,7 @@ package web
 
 import (
 	"bytes"
-	"code.google.com/p/go.net/websocket"
+	"golang.org/x/net/websocket"
 	"crypto/tls"
 	"fmt"
 	"github.com/gorilla/mux"
